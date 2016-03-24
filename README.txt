@@ -1,3 +1,7 @@
+NOTES
+
+This is an early prototype of an elevator challenge that we might use to evaluate potential candidates at On-Site.
+
 IDEAS
 
 - Include bad data in CSV so that developers have to implement error handling in the dispatcher.
