@@ -2,7 +2,7 @@ require 'csv'
 require_relative './settings'
 require_relative './event_factory'
 
-module SmartLift
+module SimLift
   class EventStore
 
     def initialize(file, factory = EventFactory)

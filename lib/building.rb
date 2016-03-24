@@ -1,4 +1,4 @@
-module SmartLift
+module SimLift
   class Building
     attr_reader :shafts, :bottom, :top
 

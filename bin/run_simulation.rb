@@ -4,7 +4,7 @@ require_relative '../lib/dispatcher'
 require_relative '../lib/event_store'
 require_relative '../lib/simulation'
 
-include SmartLift
+include SimLift
 
 EVENTS_FILE = File.join(File.dirname(__FILE__), '../data/events.csv')
 

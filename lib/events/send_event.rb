@@ -1,4 +1,4 @@
-module SmartLift
+module SimLift
   class SendEvent
     attr_reader :time, :origin, :destination
 

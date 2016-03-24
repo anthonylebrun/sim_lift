@@ -1,4 +1,4 @@
-module SmartLift
+module SimLift
   class Dispatcher
 
     def initialize(lift_class, building)

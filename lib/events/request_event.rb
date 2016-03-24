@@ -1,4 +1,4 @@
-module SmartLift
+module SimLift
   class RequestEvent
     attr_reader :time, :origin
 

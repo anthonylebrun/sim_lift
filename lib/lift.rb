@@ -1,4 +1,4 @@
-module SmartLift
+module SimLift
   class Lift
     attr_reader :location, :destination
 

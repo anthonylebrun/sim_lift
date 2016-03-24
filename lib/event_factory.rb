@@ -1,6 +1,6 @@
 require_relative './events/index'
 
-module SmartLift
+module SimLift
   class EventFactory
     class << self
 

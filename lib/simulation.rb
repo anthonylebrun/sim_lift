@@ -1,6 +1,6 @@
 require_relative './settings'
 
-module SmartLift
+module SimLift
   class Simulation
 
     def initialize(dispatcher, events)
