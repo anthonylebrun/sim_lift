@@ -12,8 +12,6 @@ module SimLift
     end
 
     def step
-      puts "location: #{location.inspect}"
-      puts "direction: #{direction.inspect}"
       self.location += direction
     end
 
