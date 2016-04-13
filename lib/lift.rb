@@ -2,7 +2,7 @@ module SimLift
   class Lift
     attr_reader :location, :destination
 
-    def initialize(args)
+    def initialize(args = {})
       @location = args.fetch(:floor, ground_floor)
       @destination = @location
     end
