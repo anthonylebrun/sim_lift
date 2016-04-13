@@ -1,4 +1,4 @@
-require_relative './settings'
+require_relative './constants'
 
 module SimLift
   class Simulation

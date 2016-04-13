@@ -1,5 +1,5 @@
 require 'csv'
-require_relative './settings'
+require_relative './constants'
 require_relative './event_factory'
 
 module SimLift
