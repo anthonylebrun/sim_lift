@@ -1,9 +1,6 @@
 # SimLift
 
-This is an early prototype of an elevator challenge that we might use to evaluate potential candidates at On-Site.
+This is an early prototype of an elevator challenge that could be used to evaluate developer candidates. The simulations accepts a CSV of events and triggers an event per tick (this CSV needs to be populator with seasonal data). The general idea here is that candidates would be given the task of implementing the elevator dispatcher.
 
-## IDEAS
+The nice thing about this kind of challenge is that it can be solved naively with a very simple approach (handling events one by one), or a more complex approach (using forecasting). The candidate could also choose to modify the existing simulation to accomodate for non-traditional elevators (for example, elevators that require users to specify the destination floor when requesting them).
 
-- Include bad data in CSV so that developers have to implement error handling in the dispatcher.
-- Have different levels of assignments for junior/intermediate/senior devs with different requirements. Include different test suites for each of these levels. E.g. for junior: they only have to instantiate 1 elevator.
-- Include tests for the dispatcher so that they can have a spec to write the actual dispatcher against.
